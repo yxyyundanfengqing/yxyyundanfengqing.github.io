@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="杨雪元（Xueyuan Yang）的研究主页，围绕人体运动捕捉与三维重建、具身机器人、人机交互，展示运动重建、具身智能与交互式图像分割等合作研究。" />
+    <meta name="color-scheme" content="light" />
+    <title>杨雪元 Xueyuan Yang | 个人研究主页</title>
+    <link rel="canonical" href="https://yxyyundanfengqing.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=20261104-2" />
+    <script src="script.js?v=20261104-3" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#publications" data-i18n="skipLink">跳至论文</a>
+    <header class="hero" id="top">
+      <nav class="top-nav" aria-label="Main navigation / 主导航">
+        <a class="brand" href="#top">Xueyuan Yang<span aria-hidden="true">.</span></a>
+        <div class="nav-actions">
+          <a class="nav-publications" href="#publications" data-i18n="navPublications">论文</a>
+          <a class="top-email" href="mailto:XueyuanYang_ustb@163.com">XueyuanYang_ustb@163.com</a>
+          <div class="lang-switch" role="group" aria-label="语言 / Language">
+            <button class="lang-btn is-active" data-lang="zh" type="button" lang="zh-CN" aria-label="中文" aria-pressed="true">中</button>
+            <button class="lang-btn" data-lang="en" type="button" lang="en" aria-label="English" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-grid">
+        <section class="hero-main reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">个人研究主页</p>
+          <h1>
+            <span class="name-cn" data-i18n="heroNameCn">杨雪元</span>
+            <span class="name-en" data-i18n="heroNameEn">Xueyuan Yang</span>
+          </h1>
+          <div class="hero-research">
+            <h2 class="hero-research-label" data-i18n="researchTitle">研究方向</h2>
+            <ul class="research-interests">
+              <li data-i18n="interest3D">人体运动捕捉与三维重建</li>
+              <li data-i18n="interestRobotics">具身机器人</li>
+              <li data-i18n="interestHCI">人机交互</li>
+            </ul>
+            <p class="hero-research-text" data-i18n="researchBody">我关注人体运动捕捉与三维重建，并进一步探索运动感知与表示如何支持具身机器人的行动，以及人与智能系统的自然协作。</p>
+            <p class="research-related" data-i18n="researchRelated">相关方向：多模态感知、社会智能与 agent 框架。</p>
+          </div>
+        </section>
+        <aside class="hero-portrait reveal" style="--delay: 0.08s">
+          <img src="assets/avatar.jpg" alt="杨雪元的照片" width="480" height="480" fetchpriority="high" />
+        </aside>
+      </div>
+    </header>
+    <main>
+      <section class="section" id="publications" aria-labelledby="publications-title" tabindex="-1">
+        <div class="section-header reveal">
+          <p class="section-tag" data-i18n="pubTag">Selected Publications</p>
+          <h2 id="publications-title" data-i18n="pubTitle">论文与研究</h2>
+          <p class="section-text" data-i18n="pubIntro">以下按代表性列出研究工作。作者顺序与原论文一致，加粗标出本人；预印本与正式发表分别标注。</p>
+        </div>
+        <div class="publication-list" id="publication-list"></div>
+        <noscript>
+          <p>论文链接 / Publication links:</p>
+          <ol class="static-publications">
+            <li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/28888">Spatial-Related Sensors Matters: 3D Human Motion Reconstruction Assisted with Textual Semantics</a> · AAAI 2024</li>
+            <li><a href="https://arxiv.org/abs/2512.19992">S³IT: A Benchmark for Spatially Situated Social Intelligence Test</a> · 2025 preprint</li>
+            <li><a href="https://arxiv.org/abs/2512.20206">TongSIM: A General Platform for Simulating Intelligent Machines</a> · 2025 preprint</li>
+            <li><a href="https://doi.org/10.1109/VRW70859.2026.00248">Towards Trustworthy Human-AI Coexistence: A Physical-Social Benchmark for Safe Embodied AI in Symmetrical Reality</a> · IEEE VRW 2026</li>
+            <li><a href="https://doi.org/10.3390/sym14112396">Interactive Image Segmentation Based on Feature-Aware Attention</a> · Symmetry 2022</li>
+          </ol>
+        </noscript>
+      </section>
+    </main>
+    <footer>
+      <p>© <span id="year">2026</span> <span data-i18n="footerSuffix">Xueyuan Yang · 基于 GitHub Pages 部署</span></p>
+    </footer>
+  </body>
+</html>
